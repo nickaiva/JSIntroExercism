@@ -10,7 +10,7 @@ export const colorCode = (color) => {
   let COLOURS = ['Black',  'Brown',  'Red',  'Orange',  'Yellow',  'Green',  'Blue',  'Violet',  'Grey',  'White'];
 
   if(color == 'Colors'){
-    COLORS = COLOURS.map(colour => colour.toLowerCase());
+    let COLORS = COLOURS.map(colour => colour.toLowerCase());
 
     return COLORS;
   }
